@@ -1,12 +1,14 @@
 {
   "extends": "expo/tsconfig.base",
+  "allowSyntheticDefaultImports": true,
   "compilerOptions": {
     "strict": true,
     "paths": {
       "@/*": [
         "./*"
       ]
-    }
+    },
+    "skipLibCheck": true,
   },
   "include": [
     "**/*.ts",
